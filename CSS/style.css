@@ -17,7 +17,6 @@ header h1 {
 }
 
 .logo {
-    border: 1px red solid;
     margin-top: 5px;
     background-color: #2b78e4;
     width: 100px;
@@ -25,11 +24,6 @@ header h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-  
-}
-
-.logo p {
-    text-decoration: none;
 }
 
 .nav-items {
@@ -53,86 +47,82 @@ header h1 {
 }
 
 footer {
-    padding-top: 50px;
-    background-color:#ff9900;
+    padding-top: 10px;
+    background-color: #ff9900;
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
 }
 
-.social-media{
+.social-media {
     display: flex;
     justify-content: space-evenly;
-
 }
 
 .social-media img {
     width: 75px;
-    border-radius: 50%; 
+    border-radius: 50%;
 }
 
 .contact-info {
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
     align-items: center;
 }
 
-.contact-info p{
+.contact-info p {
     margin: 2px;
 }
 
 main {
-    border: #2b78e4 15px solid;
+    padding: 20px;
 }
 
 .training-option {
-    margin-bottom: 25px;
+    margin-bottom: 20px;
     padding-top: 10px;
-    background-color:#ff9900;
-    display:flex;
+    background-color: #ff9900;
+    display: flex;
     flex-direction: column;
     align-items: center;
-
 }
 
 .training-option img {
     width: 300px;
-    
 }
 
-.training-option h3 {
-    color:#2b78e4;
+.training-option h3{
+    color: #2b78e4;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 600px){
     main {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
     }
 
-    .training-option {
+    .training-option{
         padding: 20px;
-
     }
 
     .training-option img {
         width: 400px;
-        height:300px;
+        height: 400px;
     }
+
     footer {
-     
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
     }
 
     .social-media img {
         margin-right: 30px;
-
     }
 
     .contact-info {
         display: flex;
         align-items: flex-end;
-        
     }
     
 }
-
