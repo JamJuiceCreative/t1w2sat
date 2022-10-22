@@ -42,3 +42,7 @@ header h1 {
     align-items: center;
 }
 ```
+
+## Wireframes
+
+["Figma view"](./images/training)
